@@ -8,12 +8,46 @@
 
 /* Tipografía */
 @font-face {
-  font-family: "";
-  src: url("") format("woff2"), url("") format("woff");
+  font-family: "Yataghan";
+  src: url("../font/yataghan-webfont.woff2") format("woff2"), url("../font/yataghan-webfont.woff") format("woff");
 }
 
 /* ******************************** */
-
 /* Colores */
-
+:root {
+  /* Mode 1 */
+  /* colors */
+  --amarillo: #ffcb32;
+  --amarillo-flojo: #fed96c;
+  --naranja: #c66c3a;
+  --naranja-suave: #ff9500;
+}
 /* ******************************** */
+/* Generales */
+html {
+  font-family: Yataghan;
+  font-size: 16px;
+
+  /* BACKGROUND RETINA DISPLAY */
+  /* Retina Display */
+    /* Móvil */
+    @media only screen and (min-width: 320px) and (max-width: 500px) and (orientation: portrait) {
+      @media (-webkit-min-device-pixel-ratio: 1){
+          background-image: url(../img/smartphone/background_halloween.webp);
+      }
+
+      @media (-webkit-min-device-pixel-ratio: 2) {
+          background-image: url(../img/smartphone/background_halloween@2x.webp);
+      }
+
+      @media (-webkit-min-device-pixel-ratio: 3) {
+          background-image: url(../img/smartphone/background_halloween@3x.webp);
+      }
+  }
+}
+
+
+
+/* HEADER */
+header {
+}
