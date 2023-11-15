@@ -1,0 +1,17 @@
+html {
+    /* Retina Display */
+      /* Móvil */
+      @media only screen and (min-width: 320px) and (max-width: 500px) and (orientation: portrait) {
+        @media (-webkit-min-device-pixel-ratio: 1){
+            background-image: url(../img/smartphone/background_susto.webp);
+        }
+  
+        @media (-webkit-min-device-pixel-ratio: 2) {
+            background-image: url(../img/smartphone/background_susto@2x.webp);
+        }
+  
+        @media (-webkit-min-device-pixel-ratio: 3) {
+            background-image: url(../img/smartphone/background_susto@3x.webp);
+        }
+    }
+  }
